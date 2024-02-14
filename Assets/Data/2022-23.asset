@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3af7f692bef70e4fa54f36b00bd4d0f, type: 3}
+  m_Name: 2022-23
+  m_EditorClassIdentifier: 
+  Counter: 9
+  Info: "2022-23 @ D\xFCsseldorf, Germany\n2023 - $600,000\n\nGame 4"
+  Date:
+    Month: 7
+    Day: 13
+    Year: 2023
+  Teams:
+  - Name: TEAM BDS
+    Logo: 13
+  - Name: TEAM VITALITY
+    Logo: 14
+  Players:
+  - Name: RISE.
+    BirthDate:
+      Month: 8
+      Day: 5
+      Year: 2004
+    Country: 1
+    Placements: 000000000000000005
+  - Name: SEIKOO
+    BirthDate:
+      Month: 5
+      Day: 7
+      Year: 2004
+    Country: 3
+    Placements: 000000000000000001
+  - Name: M0NKEY M00N
+    BirthDate:
+      Month: 10
+      Day: 15
+      Year: 2002
+    Country: 3
+    Placements: 000000000000000001
+  - Name: ZEN
+    BirthDate:
+      Month: 1
+      Day: 20
+      Year: 2007
+    Country: 3
+    Placements: 000000000000000000
+  - Name: ALPHA54
+    BirthDate:
+      Month: 5
+      Day: 27
+      Year: 2003
+    Country: 3
+    Placements: 000000000000050000
+  - Name: RADOSINHO
+    BirthDate:
+      Month: 0
+      Day: 12
+      Year: 2004
+    Country: 3
+    Placements: 000000000000000000

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3af7f692bef70e4fa54f36b00bd4d0f, type: 3}
+  m_Name: Season 2
+  m_EditorClassIdentifier: 
+  Counter: 1
+  Info: 'Season 2 @ Amsterdam, Netherlands
+
+    2016 - $50,000
+
+
+    Game 5 (Bracket
+    Reset Game 10)'
+  Date:
+    Month: 11
+    Day: 4
+    Year: 2016
+  Teams:
+  - Name: MOCKIT ACES
+    Logo: 2
+  - Name: FLIPSID3 TACTICS
+    Logo: 1
+  Players:
+  - Name: PASCHY90
+    BirthDate:
+      Month: 6
+      Day: 5
+      Year: 1995
+    Country: 4
+    Placements: 07
+  - Name: VIOLENTPANDA
+    BirthDate:
+      Month: 10
+      Day: 2
+      Year: 1998
+    Country: 7
+    Placements: 00
+  - Name: DEEVO
+    BirthDate:
+      Month: 6
+      Day: 12
+      Year: 2000
+    Country: 1
+    Placements: 00
+  - Name: KUXIR97
+    BirthDate:
+      Month: 1
+      Day: 19
+      Year: 1997
+    Country: 6
+    Placements: 02
+  - Name: MARKYDOODA
+    BirthDate:
+      Month: 1
+      Day: 10
+      Year: 1996
+    Country: 9
+    Placements: 02
+  - Name: GREAZYMEISTER
+    BirthDate:
+      Month: 3
+      Day: 5
+      Year: 1996
+    Country: 8
+    Placements: 03

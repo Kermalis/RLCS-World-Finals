@@ -1,0 +1,146 @@
+* text eol=lf
+
+# .asset files can be binary or text, but most are text. The following are binary (possibly more also):
+# * Terrain Data
+# * Nav Mesh Data
+# * Lighting Data Asset
+
+# Macro attribute: Files with Unities yaml format
+# linguist-generated means the file is ignored for the repository's language statistics and diffs are hidden by default.
+[attr]unity-yaml-file -text -merge=unityamlmerge linguist-generated
+
+# Unity
+*.cginc              text
+*.cs                 text diff=csharp
+*.shader             text
+
+# Unity YAML
+*.asmdef             unity-yaml-file
+*.anim               unity-yaml-file
+*.asset              unity-yaml-file
+*.brush              unity-yaml-file
+*.cginc              unity-yaml-file
+*.controller         unity-yaml-file
+*.flare              unity-yaml-file
+*.fontsettings       unity-yaml-file
+*.giparams           unity-yaml-file
+*.guiskin            unity-yaml-file
+*.mask               unity-yaml-file
+*.mat                unity-yaml-file
+*.meta               unity-yaml-file
+*.mixer              unity-yaml-file
+*.overrideController unity-yaml-file
+*.playable           unity-yaml-file
+*.prefab             unity-yaml-file
+*.preset             unity-yaml-file
+*.renderTexture      unity-yaml-file
+*.shader             unity-yaml-file
+*.shadervariants     unity-yaml-file
+*.spriteatlas        unity-yaml-file
+*.terrainlayer       unity-yaml-file
+*.unity              unity-yaml-file
+
+# "physic" for 3D but "physics" for 2D
+*.physicMaterial2D   unity-yaml-file
+*.physicMaterial     unity-yaml-file
+*.physicsMaterial2D  unity-yaml-file
+*.physicsMaterial    unity-yaml-file
+
+# Using Git LFS
+# Add diff=lfs merge=lfs to the binary files
+
+# Unity LFS
+*.cubemap            binary
+*.unitypackage       binary
+
+# 3D models
+*.3dm                binary
+*.3ds                binary
+*.blend              binary
+*.c4d                binary
+*.collada            binary
+*.dae                binary
+*.dxf                binary
+*.FBX                binary
+*.fbx                binary
+*.jas                binary
+*.lws                binary
+*.lxo                binary
+*.ma                 binary
+*.max                binary
+*.mb                 binary
+*.obj                binary
+*.ply                binary
+*.skp                binary
+*.stl                binary
+*.ztl                binary
+
+# Audio
+*.aif                binary
+*.aiff               binary
+*.it                 binary
+*.mod                binary
+*.mp3                binary
+*.ogg                binary
+*.s3m                binary
+*.wav                binary
+*.xm                 binary
+
+# Video
+*.asf                binary
+*.avi                binary
+*.flv                binary
+*.mov                binary
+*.mp4                binary
+*.mpeg               binary
+*.mpg                binary
+*.ogv                binary
+*.wmv                binary
+
+# Images
+*.bmp                binary
+*.exr                binary
+*.gif                binary
+*.hdr                binary
+*.iff                binary
+*.jpeg               binary
+*.jpg                binary
+*.pict               binary
+*.png                binary
+*.psd                binary
+*.tga                binary
+*.tif                binary
+*.tiff               binary
+*.webp               binary
+
+# Compressed Archive
+*.7z                binary
+*.bz2               binary
+*.gz                binary
+*.rar               binary
+*.tar               binary
+*.zip               binary
+
+# Compiled Dynamic Library
+*.dll               binary
+*.pdb               binary
+*.so                binary
+
+# Fonts
+*.otf               binary
+*.ttf               binary
+
+# Executable/Installer
+*.apk               binary
+*.exe               binary
+
+# Documents
+*.pdf               binary
+
+# ETC
+*.a                 binary
+*.rns               binary
+*.reason            binary
+
+# Spine export file for Unity
+*.skel.bytes        binary

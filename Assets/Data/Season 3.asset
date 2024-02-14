@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3af7f692bef70e4fa54f36b00bd4d0f, type: 3}
+  m_Name: Season 3
+  m_EditorClassIdentifier: 
+  Counter: 2
+  Info: 'Season 3 @ Los Angeles, United States
+
+    2017 - $55,000
+
+
+    Game 7 (Bracket
+    Reset Game 13)'
+  Date:
+    Month: 5
+    Day: 4
+    Year: 2017
+  Teams:
+  - Name: MOCK-IT ESPORTS
+    Logo: 2
+  - Name: NORTHERN GAMING
+    Logo: 3
+  Players:
+  - Name: MIZTIK
+    BirthDate:
+      Month: 5
+      Day: 1
+      Year: 1996
+    Country: 9
+    Placements: 0003
+  - Name: FAIRY PEAK!
+    BirthDate:
+      Month: 4
+      Day: 26
+      Year: 1998
+    Country: 3
+    Placements: 0000
+  - Name: KAYDOP
+    BirthDate:
+      Month: 4
+      Day: 22
+      Year: 1998
+    Country: 3
+    Placements: 0005
+  - Name: TURBOPOLSA
+    BirthDate:
+      Month: 7
+      Day: 9
+      Year: 1998
+    Country: 10
+    Placements: 0700
+  - Name: DEEVO
+    BirthDate:
+      Month: 6
+      Day: 12
+      Year: 2000
+    Country: 1
+    Placements: 0002
+  - Name: REMKOE
+    BirthDate:
+      Month: 4
+      Day: 27
+      Year: 1995
+    Country: 7
+    Placements: 0303
